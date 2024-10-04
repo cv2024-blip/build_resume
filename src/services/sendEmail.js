@@ -18,7 +18,7 @@ export const sendMail = async ({
     service: "gmail",
   });
   const info = await transporter.sendMail({
-    from: 'Task App"<mh0649546@gmail.com>', // sender address
+    from: "build resume", // sender address
     to, // list of receivers
     subject, // Subject line
     text: textMessage, // plain text body
